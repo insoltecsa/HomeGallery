@@ -64,7 +64,7 @@ class AccountMove(models.Model):
         precio_total_descuento = 0
         precio_total_positivo = 0
 
-        # Guardar las descripciones, por que las modificaciones de los precios
+        # Guardar las descripciones, por que las modificaciones de los precios--
         # y descuentos las resetean :(
         descr = {}
         for linea in factura.invoice_line_ids:
